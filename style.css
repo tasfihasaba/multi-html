@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: montserrat;
+    background: black;
+}
+nav{
+    background: blue ;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.github li a {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: white;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: #FFF569;
+    padding: 10px 10px;
+    color: black;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid pink;
+}
+nav a:hover{
+    color: rgb(255, 253, 253);
+    background-color: rgb(18, 20, 20);
+    transition: 0s;
+    border: none;
+ }
+ nav a:is(:link, :active, :visited).active{
+    color: white;
+    background-color: rgb(7, 15, 18);
+    border: 1px solid pink;;
+ }
